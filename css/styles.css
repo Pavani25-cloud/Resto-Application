@@ -1,0 +1,175 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header and Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Main Sections */
+main {
+    padding: 2rem;
+}
+
+.introduction, .cta, .about, .menu, .order, .contact {
+    margin-bottom: 2rem;
+}
+
+.introduction h2, .cta h2, .about h1, .menu h1, .order h1, .contact h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta .btn:hover {
+    background-color: #575757;
+}
+
+/* About Section */
+.about p {
+    font-size: 1.2rem;
+}
+
+/* Menu Section */
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    margin-bottom: 2rem;
+}
+
+.menu h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu p {
+    font-size: 1.1rem;
+}
+
+/* Order Section */
+.order form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.order label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.order input, .order textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.order button:hover {
+    background-color: #575757;
+}
+
+/* Contact Section */
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
